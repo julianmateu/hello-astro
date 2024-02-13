@@ -1,4 +1,8 @@
-# 
+# Hello Astro
+
+This is a hello world project with [Astro](https://astro.build/), [Typescript](https://www.typescriptlang.org/),
+[Vitest](https://vitest.dev/), [Playwrigth](https://playwright.dev/) and [TailwindCSS](https://tailwindcss.com/)
+
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
