@@ -1,0 +1,11 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { Greeter } from "@lib/Greeter.ts";
+
+const greeting = Greeter("Astro");
+---
+
+<Layout title="Astro">
+	<h1>Astro</h1>
+	<p>{greeting}</p>
+</Layout>
