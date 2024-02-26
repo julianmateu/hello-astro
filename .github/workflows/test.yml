@@ -1,0 +1,17 @@
+name: Tests and conditional deploy
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+    
+jobs:
+  unit-tests:
+    uses: ./.github/workflows/vitest.yml
+
+  playwright-tests:
+    uses: ./.github/workflows/playwright.yml
+    with:
+      report_name: 'local'
+    secrets:
+      target_url: 'http://localhost:4321'
