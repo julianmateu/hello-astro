@@ -16,7 +16,7 @@
     "e2e:report": "playwright show-report"
   },
   "dependencies": {
-    "astro": "4.4.9"
+    "astro": "4.4.15"
   },
   "devDependencies": {
     "@astrojs/check": "0.5.6",
