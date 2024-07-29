@@ -19,7 +19,7 @@
     "astro": "4.12.2"
   },
   "devDependencies": {
-    "@astrojs/check": "0.8.2",
+    "@astrojs/check": "0.8.3",
     "@playwright/test": "1.45.2",
     "@types/bun": "latest",
     "@types/node": "20.14.11",
