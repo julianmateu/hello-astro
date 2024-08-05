@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.1",
-    "@playwright/test": "1.45.2",
+    "@playwright/test": "1.45.3",
     "@types/bun": "latest",
     "@types/node": "22.0.0",
     "@vitest/coverage-v8": "2.0.5",
